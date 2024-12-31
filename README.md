@@ -61,21 +61,18 @@ To run the application:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/banking-app.git
+    git clone https://github.com/VigTheCoder/banking-app.git
     ```
 
 2. Set up the database:
-    - Create a database `banking_db` in MySQL.
+    - Create a database `banking_app` in MySQL.
     - Update the database connection details in `src/main/resources/application.properties`:
       ```properties
-      spring.datasource.url=jdbc:mysql://localhost:3306/banking_db
+      spring.datasource.url=jdbc:mysql://localhost:3306/banking_app
       spring.datasource.username=root
       spring.datasource.password=root
       spring.jpa.hibernate.ddl-auto=update
       ```
-Postman CRUD Operations
-- Create Account
-![Alt text](/images/post2.png)
 
 3. Build the project and run the application using Maven:
     ```bash
@@ -94,6 +91,42 @@ The application exposes the following API endpoints:
 - **PUT /api/accounts/{id}/withdraw** - Withdraw funds from a bank account.
 - **GET /api/accounts** - Get a list of all accounts.
 - **DELETE /api/accounts/{id}** - Delete a specific bank account.
+
+### Screenshots
+Database Screenshot
+Below is a screenshot showing the database created in MySQL Workbench named banking_app:
+![Alt text](/images/database.png)
+
+Postman CRUD Operations
+- Create Account
+![Alt text](/images/post2.png)
+
+
+- Get Account Details by ID
+![Get](/images/GetMapping.png)
+
+- Get All Account Details in the Database
+![getAllAccounts](/images/getAllAccounts.png)
+
+- Deposit Funds
+![deposit](/images/deposit.png)
+
+- Withdraw Funds
+![withdraw](/images/withdraw.png)
+
+- Delete Account
+![delete](/images/delete.png)
+
+### Troubleshooting
+- If you encounter database connection issues, make sure your MySQL server is running and the database credentials are correct.
+- For any errors related to Maven or dependencies, try running mvn clean install to resolve the issues.
+- Ensure that your MySQL database has the necessary permissions for the user you have configured in application.properties.
+
+### References
+- Spring Boot: https://spring.io/projects/spring-boot
+- Spring Data JPA: https://spring.io/projects/spring-data-jpa
+- MySQL: https://www.mysql.com/
+- Postman: https://www.postman.com/
 
 ### Example Request for Account Creation
 
@@ -127,7 +160,7 @@ Response: 200 OK with message "Account deleted successfully!".
 
 ### Screenshots
 Database Screenshot
-Below is a screenshot showing the database structure and contents for the banking_db:
+Below is a screenshot showing the database structure and contents for the banking_app:
 
 Postman CRUD Operations
 - Create Account
