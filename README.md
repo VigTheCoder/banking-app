@@ -96,7 +96,7 @@ The application exposes the following API endpoints:
 ### Screenshots
 
 Below is a screenshot showing the database created in MySQL Workbench named banking_app:
-Database Screenshot
+- Database Screenshot
 ![Alt text](/images/database.png)
 
 Postman CRUD Operations
