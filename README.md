@@ -128,7 +128,8 @@ Below is a screenshot showing the database structure and contents for the bankin
 
 Postman CRUD Operations
 - Create Account
-![post2](https://github.com/user-attachments/assets/edc99777-8c10-4f4e-93fd-1014ca99723f)
+![image](https://github.com/user-attachments/assets/236be160-7edb-4efc-b7ac-f0f81141012d)
+
 
 - Get Account Details by ID
 ![GetMapping](https://github.com/user-attachments/assets/3de12583-d47d-4517-addd-122395e997e3)
