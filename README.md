@@ -94,8 +94,9 @@ The application exposes the following API endpoints:
 - **DELETE /api/accounts/{id}** - Delete a specific bank account.
 
 ### Screenshots
-Database Screenshot
+
 Below is a screenshot showing the database created in MySQL Workbench named banking_app:
+Database Screenshot
 ![Alt text](/images/database.png)
 
 Postman CRUD Operations
