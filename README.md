@@ -73,6 +73,9 @@ To run the application:
       spring.datasource.password=root
       spring.jpa.hibernate.ddl-auto=update
       ```
+Postman CRUD Operations
+- Create Account
+![Alt text](/images/post2.png)
 
 3. Build the project and run the application using Maven:
     ```bash
